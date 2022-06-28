@@ -94,10 +94,10 @@
              display : block; 
        }
 
-       section {
-        background-image : url("img/bg_header.jpg");
-        width : 100%;
-        height : 800px;
+       .section {
+            background-image : url("img/bg_header.jpg");
+            width : 100%;
+            height : 800px;
        }
 
        .section {
@@ -106,7 +106,7 @@
             flex-direction : column;
             text-align : center;
             width : 100%;
-            height : 600px;
+            height : 800px;
             padding-left : 300px;
             padding-right : 300px;
 
@@ -116,10 +116,10 @@
             font-weight : bolder;
             color : whitesmoke;
             font-size : 40px;
-            margin-top : 220px;
+            margin-top : 60px;
        }
 
-       p {
+       .para {
             color : white; 
             padding : 10px;
             font-size : 1.3em;
@@ -136,6 +136,44 @@
             text-align : center;
        }
 
+       #sectionImage {
+            margin-top : 50px;
+            display : flex;
+            justify-content : center;
+            align-items : center;
+            flex-direction : column;
+            width : 100%;
+            height : 320px;
+       }
+
+       #figure {
+            display : flex;
+            align-items : center;
+       }
+
+       .figcaption {
+            display : flex;
+            flex-direction : column;
+            align-items : center;
+
+       }
+
+       #comp {
+            font-weight : bold;
+            font-size : 30px;
+       }
+
+       hr {
+            border : 1px solid rgba(134, 136, 136, 0.2);
+            width : 50%;
+       }
+
+       .paraService {
+            color :rgb(113, 109, 109)
+       }
+       
+
+
 
     </style>
 </head>
@@ -151,7 +189,7 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section id="section">
         <div class="section">
             <h1 class="titleSection">-Bonjour et bienvenue sur mon portfolio-</h1>
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sunt repellat quibusdam molestias illum sint voluptatibus porro assumenda nihil enim amet sapiente vitae numquam voluptatum alias corrupti praesentium recusandae dolorem voluptate, inventore modi tenetur minus esse. Corrupti id iste odio architecto nostrum accusantium natus ipsum dolor earum quod. Quae atque quisquam corrupti rem dolor minima accusamus necessitatibus odio. Neque provident vel repellat, delectus quos pariatur aperiam sed! Eligendi, nulla natus distinctio porro consectetur vitae. Fugit earum suscipit porro natus non quibusdam incidunt libero excepturi? Dolore veritatis illum consequatur, rerum accusamus corrupti, temporibus at officia ad in fugiat debitis aut provident.</p>
@@ -160,6 +198,51 @@
             </div>
         </div>
     </section>
+    <section id="sectionImage">
+        <h2 id="comp">Mes Compétences</h2>
+        <hr>
+        <div id="figure">
+            <figure class="language">
+                <img src="img/chart.jpg">
+                <figcaption class="figcaption">
+                    <p>95%</p>
+                    <h3>Chart js</h3>
+                </figcaption>
+            </figure>
+            <figure class="language">
+                <img src="img/chart.jpg">
+                <figcaption class="figcaption">
+                    <p>80</p>
+                    <h3>Highchart js</h3>
+                </figcaption>
+            </figure>
+            <figure class="language">
+                <img src="img/chart.jpg">
+                <figcaption class="figcaption">
+                    <p>80</p>
+                    <h3>Konva js</h3>
+                </figcaption>
+            </figure> 
+        </div>  
+    </section>
+    <!--<section id="services">
+        <h2>Mes services</h2>
+        <article class="service">
+            <i class="fa fa-coffee"></i>
+            <h3>On discute</h3>
+            <p class="paraService">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sit.</p>
+        </article>
+        <article class="service">
+            <i class="fa fa-flask"></i>
+            <h3>On tente</h3>
+            <p class="paraService">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+        <article class="service">
+            <i class="fa fa-code"></i>
+            <h3>On code</h3>
+            <p class="paraService">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+    </section>-->
         
    
 
